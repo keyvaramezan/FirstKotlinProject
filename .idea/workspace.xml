@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab3fdcc3-8077-4416-9b52-257e7016d04f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arguments.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstKotlinProject/CollectionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstKotlinProject/CollectionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstKotlinProject/META-INF/FirstKotlinProject.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstKotlinProject/META-INF/FirstKotlinProject.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basicFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicFunction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Kotlin.CollectionsKt">
+  <component name="RunManager" selected="Kotlin.ArgumentsKt">
+    <configuration name="ArgumentsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="FirstKotlinProject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ArgumentsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="FirstKotlinProject" />
       <option name="VM_PARAMETERS" />
@@ -73,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArgumentsKt" />
         <item itemvalue="Kotlin.CollectionsKt" />
         <item itemvalue="Kotlin.BasicFunctionKt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -101,29 +118,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="673" y="341" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1585856963822" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585921699010">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585924383259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585921699010" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585924383259" />
     <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585861498992" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585921699010">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585924383259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585921699010" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585924383259" />
     <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585861498992" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585921699010">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585924383258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585921699010" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585924383258" />
     <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585861498992" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585921699010">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585924383259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585921699010" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585924383259" />
     <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585861498992" />
-    <state x="694" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1585902149034">
+    <state x="694" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1585976184247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="694" y="268" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585902149034" />
+    <state x="694" y="268" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585976184247" />
   </component>
 </project>
