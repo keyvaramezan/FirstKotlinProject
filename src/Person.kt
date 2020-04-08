@@ -46,14 +46,14 @@
 class Person (val firstName: String = "Beri", val lastName: String = "Alen"){
 
     var nickName: String? = null
-    set(value) {
+    /*set(value) {
         field = value
         println("the new nikname is $value")
     }
     get(){
         println("the returned value is $field ")
         return field
-    }
+    }*/
 
     //lesson 5
     fun printInfo(){
