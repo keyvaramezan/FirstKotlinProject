@@ -1,4 +1,4 @@
-interface PersonInfoProvider {
+/*interface PersonInfoProvider {
     //lesson3
     /*fun printInfo(person: Person){
             println("basicInfoProvider")
@@ -12,7 +12,7 @@ interface PersonInfoProvider {
         println(providerInfo)
         person.printInfo()
     }
-}
+}*/
 //lesson 1
 /*class BasicInfoProvider : PersonInfoProvider {
     override fun printInfo(person: Person) {
@@ -47,7 +47,7 @@ interface PersonInfoProvider {
 }*/
 
 //lesson 5
-interface SessionInfoProvider {
+/*interface SessionInfoProvider {
     fun getSessionId ():String
 }
 
@@ -63,7 +63,8 @@ class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
     override fun getSessionId(): String {
         return  "Session"
     }
-}
+}*/
+
 fun main() {
     val provider = BasicInfoProvider()
     provider.printInfo(Person())
@@ -71,7 +72,7 @@ fun main() {
 }
 
 //lesson 5
-fun checkTypes(infoProvider: PersonInfoProvider){
+/*fun checkTypes(infoProvider: PersonInfoProvider){
     if (infoProvider !is SessionInfoProvider) {
         println("is not a session info provider")
     }else{
@@ -79,5 +80,5 @@ fun checkTypes(infoProvider: PersonInfoProvider){
         //(infoProvider as SessionInfoProvider).getSessionId()
         infoProvider.getSessionId()
     }
-}
+} */
 
