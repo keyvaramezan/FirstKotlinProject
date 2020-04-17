@@ -10,7 +10,7 @@ interface PersonInfoProvider {
 interface SessionInfoProvider {
     fun getSessionId ():String
 }
-//lesson 1
+//lesson 1 for inheritance
 open class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
     override val providerInfo: String
         get() = "BasicInfoProvider"
@@ -26,10 +26,24 @@ open class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
         return  sessionIdPrefix
     }
 }
-fun main() {
+
+/*fun main() {
     val provider = FancyInfoProvider()
     //provider.sessionIdPrefix
     provider.printInfo(Person())
+    checkTypes(provider)
+}*/
+
+//lesson 1 for Object Expression
+fun main() {
+    val provider = object : PersonInfoProvider{
+        override val providerInfo: String
+            get() = "New Info Provider"
+
+        fun getSessionId() = "id"
+    }
+    provider.printInfo(Person())
+    provider.getSessionId();
     checkTypes(provider)
 }
 
