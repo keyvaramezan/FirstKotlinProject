@@ -136,7 +136,7 @@ fun main() {
     //lesson 1 for Extension functions a properties
     /*Entity.Medium("id", "name").printInfo()*/
 
-    //lesson 2 for Extension functions a properties
+    //lesson 2 for Extension functions and properties
     val entity1 = Entity.Easy("id", "name")
     val entity2 = EntityFactory.create(EntityType.MEDIUM)
 
