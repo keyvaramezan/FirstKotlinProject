@@ -1,6 +1,6 @@
 import java.util.*
 
-//lesson 1
+//Object Deceleration lesson 1
 /*
 object EntityFactory{
     fun create() = Entity("id")
@@ -15,7 +15,7 @@ fun main() {
     val entity = EntityFactory.create()
 }*/
 
-//lesson 2
+//Object Deceleration lesson 2
 /*
 object EntityFactory{
     fun create() = Entity("id", "name")
@@ -96,14 +96,36 @@ fun main() {
     println(mediumEnity)*/
 
     // lesson 1 for sealed class
-    val msg = when(entity){
+   /* val msg = when(entity){
         Entity.Help -> "help class"
         is Entity.Easy -> "easy class"
         is Entity.Medium -> "medium class"
         is Entity.Hard -> "hard class"
     }
 
-    println(msg)
+    println(msg)*/
+
+    //lesson 1 for data class
+    /*val entity1 = EntityFactory.create(EntityType.EASY)
+    val entity2 = EntityFactory.create(EntityType.EASY)*/
+
+    //lesson 2 for data class
+   /* val entity1 = Entity.Easy("id", "name")
+    val entity2 = Entity.Easy("id", "name")*/
+
+    //lesson 3 for data class
+    val entity1 = Entity.Easy("id", "name")
+    //val entity2 = entity1.copy()
+    //val entity2 = entity1.copy(name = "new name")
+    val entity2 = Entity.Easy("id", "name")
+
+    if (entity1 == entity2){
+        println("they are equal")
+    }else{
+        println("they are not equal")
+    }
+
+
 }
-//
+
 
