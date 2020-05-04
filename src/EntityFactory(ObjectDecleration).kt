@@ -87,6 +87,14 @@ sealed class Entity (){
 }
 
 
+//lesson 1 for Extension Functions / Properties
+fun Entity.Medium.printInfo(){
+    println("Medium Class: $id")
+}
+
+val Entity.Medium.info: String
+    get() = "some info"
+
 fun main() {
     val entity: Entity = EntityFactory.create(EntityType.Help)
 
@@ -111,18 +119,29 @@ fun main() {
 
     //lesson 2 for data class
    /* val entity1 = Entity.Easy("id", "name")
-    val entity2 = Entity.Easy("id", "name")*/
+    val entity2 = Entity.Easy("id", "name")
 
-    //lesson 3 for data class
+    lesson 3 for data class
     val entity1 = Entity.Easy("id", "name")
-    //val entity2 = entity1.copy()
-    //val entity2 = entity1.copy(name = "new name")
+    val entity2 = entity1.copy()
+    val entity2 = entity1.copy(name = "new name")
     val entity2 = Entity.Easy("id", "name")
 
     if (entity1 == entity2){
         println("they are equal")
     }else{
         println("they are not equal")
+    }*/
+
+    //lesson 1 for Extension functions a properties
+    /*Entity.Medium("id", "name").printInfo()*/
+
+    //lesson 2 for Extension functions a properties
+    val entity1 = Entity.Easy("id", "name")
+    val entity2 = EntityFactory.create(EntityType.MEDIUM)
+
+    if (entity2 is Entity.Medium) {
+        entity2.info
     }
 
 
